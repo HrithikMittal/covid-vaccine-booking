@@ -74,7 +74,6 @@ const Forms = () => {
       );
     }
 
-    console.log("Response", res);
     let tempColumns = [];
 
     const date = new Date();

@@ -16,7 +16,6 @@ export default function AutoComplete(props) {
         <TextField {...params} label={props.label} variant="outlined" />
       )}
       onChange={(e, obj) => {
-        console.log("Selected State:", obj);
         props.onSelected(obj);
       }}
     />
