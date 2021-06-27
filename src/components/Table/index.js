@@ -8,12 +8,15 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 
+import "./style.css";
+
 const useStyles = makeStyles({
   root: {
     width: "100%",
+    marginTop: "30px",
   },
   container: {
-    maxHeight: 440,
+    maxHeight: 500,
   },
 });
 
@@ -32,7 +35,7 @@ export default function StickyHeadTable({ tableData, tableColumns }) {
   }, [tableData]);
 
   return (
-    <Paper className={classes.root}>
+    <Paper className="table">
       <TableContainer className={classes.container}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>

@@ -1,0 +1,14 @@
+.table {
+  width: 100%;
+  margin-top: 10px;
+  font-family: "PT Sans", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .table {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    font-family: "PT Sans", sans-serif;
+  }
+}
