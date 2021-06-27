@@ -17,12 +17,12 @@ export const getSlotsByDistrict = async (district, date) => {
   const res = await axios.get(
     BASE_URL + `/calendarByDistrict?districtId=${district}&date=${date}`
   );
-  return res.data.data;
+  return res.data;
 };
 
 export const getSlotsByPincode = async (pincode, date) => {
   const res = await axios.get(
     BASE_URL + `/calendarByPin?pincode=${pincode}&date=${date}`
   );
-  return res.data.data;
+  return res.data;
 };
