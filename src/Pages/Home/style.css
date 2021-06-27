@@ -1,0 +1,27 @@
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.homeContainerLeft {
+  display: flex;
+  flex: 1;
+}
+
+.homeContainerRight {
+  display: flex;
+  flex: 1;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction:column;
+  flex:1
+}
+
+.formFirstRow{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+}
