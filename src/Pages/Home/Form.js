@@ -23,9 +23,7 @@ const Forms = () => {
   const [selectedState, setSelectedState] = useState({});
   const [selectedDistrict, setSelectedDistrict] = useState({});
   const [pincode, setPincode] = useState("");
-  const [selectedDate, setSelectedDate] = useState(
-    format(new Date(), "dd-MM-yyyy")
-  );
+  const [selectedDate] = useState(format(new Date(), "dd-MM-yyyy"));
 
   const [ageLimit, setAgeLimit] = useState(18);
   const [doseNumber, setDoseNumber] = useState("available_capacity_dose1");
@@ -146,6 +144,7 @@ const Forms = () => {
             label="Districts"
           />
         )}
+        <span style={{ paddingTop: "18px" }}>OR</span>
         <TextField
           id="outlined-basic"
           label="Pin Code"
