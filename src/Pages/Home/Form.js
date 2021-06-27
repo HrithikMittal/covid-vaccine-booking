@@ -113,7 +113,6 @@ const Forms = () => {
         centerName: center.name,
         centerId: "#" + center.center_id,
         feeType: center.fee_type,
-        vaccine: center.vaccine,
       };
       retObj[date1] = session1 ? session1[doseNumber] : "-";
       retObj[date2] = session2 ? session2[doseNumber] : "-";
@@ -187,7 +186,12 @@ const Forms = () => {
         </RadioGroup>
       </div>
 
-      <Button variant="contained" color="primary" onClick={handleSearch}>
+      <Button
+        variant="contained"
+        color="primary"
+        disabled={!selectedDistrict?.district_id && pincode.length !== 6}
+        onClick={handleSearch}
+      >
         Search
       </Button>
       <StickyHeadTable tableData={tableData} tableColumns={columns} />
