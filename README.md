@@ -21,18 +21,18 @@ I created the website where you can check the Covid Vaccine Slots without login 
 
 ## Featues
 
-1. State based search from the AutoComplete
-2. Districts based search from the AutoComplete
-3. Search on the basis of PinCode
-4. Distribution based on Age[18+/45+]
-5. Distribution based on type of Dose [Dose 1/Dose 2]
+- [X] State based search from the AutoComplete
+- [X] Districts based search from the AutoComplete
+- [X] Search on the basis of PinCode
+- [X] Distribution based on Age[18+/45+]
+- [X] Distribution based on type of Dose [Dose 1/Dose 2]
 
 ## Future Work To Be Done
 
-1. Add next weeks scroll for next day into the table.
-2. Display vaccine category available.
-3. Display amount of paid Vaccine based on category.
-4. Show Complete Address of the Vaccination Center.
+- [ ] Add next weeks scroll for next day into the table.
+- [ ] Display vaccine category available.
+- [ ] Display amount of paid Vaccine based on category.
+- [ ] Show Complete Address of the Vaccination Center.
 
 ## APIs Schema
 
@@ -150,5 +150,17 @@ I created the website where you can check the Covid Vaccine Slots without login 
    ]
 }
 ````
+
+
+### Want to know more about me?
+## Follow Me
+<a href="https://twitter.com/AdhikanshMittal" target="_blank"><img class="ai-subscribed-social-icon" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-1024.png" width="30"></a>
+<a href="https://github.com/HrithikMittal" target="_blank"><img class="ai-subscribed-social-icon" src="https://cdn0.iconfinder.com/data/icons/social-media-2183/512/social__media__social_media__github_-1024.png" width="30"></a>
+<a href="https://www.linkedin.com/in/adhikansh-mittal/" target="_blank"><img class="ai-subscribed-social-icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-1024.png" width="30"></a>
+
+
+<h3 align="center">Show your &nbsp;❤️&nbsp; & support by starring the repository! 😊</h3>
+
+
 
 
